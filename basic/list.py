@@ -37,3 +37,9 @@ print(user)
 
 newUser = [['小明', 18, '男', '学生'], ['小红', 19, '女', '学生'], ['小刚', 20, '男', '学生'], ['小李', 21, '女', '学生']]
 print(newUser)
+print('\n')
+for name in names:
+    print(name,end = ' ')
+print('\n')
+for name in reversed(names):
+    print(name,end = ' ')
